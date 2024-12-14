@@ -1,0 +1,269 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 130%;
+    height: auto;
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    background-color: #0064D2;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #004a99;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    margin: 0 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.navbar .btn {
+    margin-left: 20px;
+}
+
+/* Section 1 */
+.sec1 {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #f0f0f0;
+    border-color: #333;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-image-width: cover;
+}
+
+.image-container p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image-container button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+.sec1 {
+    background-image: url("https://images.prismic.io/getcircuit/3140f35f-e8c5-4711-87ac-59fff9b25c88_Header+%2848%29.jpg?auto=compress,format");
+    width:100vw;
+    height:80vh;
+    background-size: cover;
+    text-align: center;
+    /* padding: 20% 30%; */
+    display: flex;
+    flex-direction: column;
+    color: black;
+    /* margin-bottom: 5%; */
+
+}
+.online{
+    padding-bottom: 1%;
+}
+.image-container{
+    text-align: top;
+}
+.btn{
+    background-color: green;
+    text-decoration-color: black;
+}
+
+
+.sec2, .sec3, .sec4, .sec5, .sec6 {
+    margin: 10px;
+    padding: 0;
+    background-color: white;
+    margin-bottom: 15px;
+    text-decoration: bold;
+    margin-top: 10px;
+    text-align: center;
+    text-indent: 5px;
+    text-decoration-line: underline;
+
+}
+.sec13 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+.sec2 .two2, .sec3 .three3, .sec4 .four4, .sec5 .five5, .sec6 .six6 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-color: black;
+    border-style: groove;
+    background-color: black;
+}
+
+.sec2 img, .sec3 img, .sec4 img, .sec5 img, .sec6 img {
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0 7px 6px rgba(0, 0, 0, 0.1);
+    border-color: black;
+    border-style: groove;
+}
+
+.sec3 .three3 a, .sec4 .four4 a, .sec5 .five5 a, .sec6 .six6 a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-color: black;
+    border-style: groove;
+}
+
+.sec3 p, .sec4 p, .sec5 p, .sec6 p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.sec3 h5, .sec4 h5, .sec5 h5, .sec6 h5 {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Section 7 */
+.sec7 {
+    background-color:#f2f5fc;
+    background-size: 5%;
+    align-items: center;
+    margin-top: 5%;
+    padding: 10px 5px;
+    text-align:space-around ;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec7 h1 {
+    margin: bottom 10px;
+    text-align: center;
+
+}
+
+.sec7 h2 {
+    margin-top: 15px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.sec7 a img {
+    margin: 15px;
+    transition: transform 0.3s;
+}
+
+.sec7 a img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+/* Section 8 */
+.sec8 {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.sec8 h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: black;
+    text-align: left;
+}
+
+.sec8 h3 p {
+    font-size: 16px;
+    color: black;
+    line-height: 2px;
+    margin: 10px 0;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    font-size: 19px;
+}
